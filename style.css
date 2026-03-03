@@ -312,6 +312,7 @@ html[data-theme="light"] .section-alt {
 .hero {
     position: relative;
     padding: 5.8rem 0 4.75rem;
+    padding-bottom: 0;
     overflow: hidden;
 }
 
