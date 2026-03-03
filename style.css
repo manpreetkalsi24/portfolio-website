@@ -825,7 +825,7 @@ html[data-theme="light"] .site-footer {
     left: 50%;
     bottom: 1.15rem;
     transform: translateX(-50%) translateY(20px);
-    background: rgba(10, 14, 27, 0.85);
+    background: green;
     border: 1px solid var(--border);
     color: var(--text);
     padding: 0.85rem 1rem;
@@ -836,6 +836,7 @@ html[data-theme="light"] .site-footer {
     transition: opacity 0.2s ease, transform 0.2s ease;
     max-width: calc(100% - 2rem);
     text-align: center;
+    z-index: 1000;
 }
 
 html[data-theme="light"] .toast {
