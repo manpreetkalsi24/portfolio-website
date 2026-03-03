@@ -175,9 +175,9 @@ html[data-theme="light"] .site-header {
 }
 
 .nav-link.is-active {
-    color: var(--text);
-    background: rgba(124, 92, 255, 0.22);
-    border: 1px solid var(--border);
+    color: white;
+    background: var(--accent);
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .header-actions {
