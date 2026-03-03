@@ -136,7 +136,7 @@ function setupContactForm() {
     form.addEventListener("submit", (e) => {
         e.preventDefault();
         form.reset();
-        showToast("Thanks! Your message is ready to send (no backend connected).");
+        showToast("Thanks! For contacting me.");
     });
 }
 
